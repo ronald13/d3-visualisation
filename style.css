@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.content{
+  font-family: 'Roboto', sans-serif;
+  padding:30px 40px;
+}
+
+.content__title{
+  font-family: 'Roboto', sans-serif;
+  font-size:40px;
+  font-weight:700;
+  color:#fff;
+  text-align:left;
+  padding: 0 50px;
+}
+.content__title span{
+  font-size:20px;
+  opacity:0.8;
+}
+
+.content__container{
+  margin:0 auto;
+  background:#333333;
+  width:950px;
+  height:600px;
+  padding:20px 20px 0 0;
+}
+.content__chart {
+  margin:0 auto;
+}
+
+.flex-center{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  flex-direction:column;
+}
+
+.bar:hover {
+  fill: #00eac9;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 140px;
+  height: 50px;
+  background-color: #545454;
+  color: #fff;
+/*   box-shadow: 2px 2px 10px black; */
+  border-radius: 6px;
+}
+.axes .tick text{
+  fill:#fff;
+}
+
+.axes .tick line, .axes .domain{
+  stroke:#fff;
+}
+
+.content__footer{
+  display:flex;
+  align-items:center;
+  font-weight:500;
+  font-size: 14px;
+  width:100%;
+  height:30px;
+  background:#00eac9;
+  padding:5px 10px;
+}
+.content__footer a{
+  text-decoration:none;
+  font-size: 14px;
+  color:#333;
+  font-weight:400;
+  margin-left:10px;
+}
